@@ -1,6 +1,6 @@
 import './App.css';
 import bluelogo from './bluelogo.svg';
-import Hero1 from './Hero1.svg';
+import Hero1 from './Hero1.png';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <nav className='menu'>
           <ul>
             <li><a href="creatacc.css">Create Account</a></li>
-            <li><a href="/login.css">Login</a></li>
+            <li><a href="/login.css" className='enter'>Login</a></li>
           </ul>
         </nav>
       </header>
@@ -22,13 +22,19 @@ function App() {
           <img src={Hero1} alt="Hero" className='hero-image' />
           <div className='hero-text'>
             <h1>Create Team And Schedules For Better Experience !</h1>
-            <p>Stay focused, stay productive.</p>
-            <button className='hero-button'>Get Started</button>
+            <p>Feel free because we take care of Security for you<br></br>All over the world, meet here today and upgrade</p>
+            <button className='hero-button'>Create Account</button>
           </div>
         </div>
-        
       </section>
-      
+      <section className='hero2'>
+        <div className='heroback2'>
+          <div className='hero-text2'>
+            <h1>Privacy and Security</h1>
+            <p>Simple, reliable, private messaging and calling for free. High security sharing personal information available all over the world.</p>
+          </div>
+        </div>
+      </section>
 
     </div>
   );
