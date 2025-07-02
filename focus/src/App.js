@@ -1,6 +1,6 @@
 import './App.css';
 import bluelogo from './bluelogo.svg';
-import Hero1 from './Hero1.svg';
+import Hero1 from './Hero1.png';
 
 function App() {
   return (
