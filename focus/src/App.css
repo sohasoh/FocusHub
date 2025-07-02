@@ -38,6 +38,10 @@ a:hover{
   transform: scale(1.1);
   color: white;
 }
+
+/* Hero Section */
+
+
 .heroback{
   background-color:  #ffd296;
 }
@@ -99,3 +103,6 @@ a:hover{
   background-color: #F8971C;
   transform: scale(1.1);
 }
+
+/* Hero2 Section */
+
