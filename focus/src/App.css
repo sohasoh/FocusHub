@@ -7,7 +7,8 @@
 .Nav{
   display: flex;
   justify-content: space-between;
-  padding: 8px 100px;
+  padding: 10px 100px;
+  border-bottom: 2px solid #F8971C;
 }
 .App-logo{
   width: 150px;

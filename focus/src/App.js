@@ -1,5 +1,6 @@
 import './App.css';
 import bluelogo from './bluelogo.svg';
+import Hero1 from './Hero1.svg';
 
 function App() {
   return (
@@ -13,6 +14,22 @@ function App() {
           </ul>
         </nav>
       </header>
+
+      {/* Hero section */}
+
+      <section className='hero'>
+        <div className='heroback'>
+          <img src={Hero1} alt="Hero" className='hero-image' />
+          <div className='hero-text'>
+            <h1>Create Team And Schedules For Better Experience !</h1>
+            <p>Stay focused, stay productive.</p>
+            <button className='hero-button'>Get Started</button>
+          </div>
+        </div>
+        
+      </section>
+      
+
     </div>
   );
 }
