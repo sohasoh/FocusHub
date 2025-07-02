@@ -7,20 +7,20 @@ function App() {
       <header className="Nav">
         <img src={bluelogo} className="App-logo" alt="logo" />
         <div className='connect'>
-          <link
+          <a
             className="App-link"
             href="https://reactjs.org"
             target="_blank"
             rel="noopener noreferrer">
             <input type='button'>Create Account</input>
-          </link>
-          <link
+          </a>
+          <a
             className="login"
             href="login.js"
             target="_blank"
             rel="noopener noreferrer">
             <input type='button'>Login</input>
-          </link>
+          </a>
         </div>
       </header>
     </div>
