@@ -6,7 +6,12 @@ function App() {
     <div className="Head">
       <header className="Nav">
         <img src={bluelogo} className="App-logo" alt="logo" />
-        <p>Asoh silas </p>
+        <nav className='menu'>
+          <ul>
+            <li><a href="creatacc.css">Create Account</a></li>
+            <li><a href="/login.css">Login</a></li>
+          </ul>
+        </nav>
       </header>
     </div>
   );
