@@ -27,7 +27,14 @@ function App() {
           </div>
         </div>
       </section>
-      
+      <section className='hero2'>
+        <div className='heroback2'>
+          <div className='hero-text2'>
+            <h1>Privacy and Security</h1>
+            <p>Simple, reliable, private messaging and calling for free. High security sharing personal information available all over the world.</p>
+          </div>
+        </div>
+      </section>
 
     </div>
   );
