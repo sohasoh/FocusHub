@@ -33,7 +33,7 @@ function App() {
           <div className='hero-text2'>
             <h1>Privacy and Security</h1>
             <p>Simple, reliable, private messaging and calling for free. High security sharing personal information available all over the world.</p>
-            <button className='hero-button2'>Login</button>
+            <button className='hero-button'>Login</button>
           </div>
           <img src={first} alt="first" className='hero-image2' />
         </div>

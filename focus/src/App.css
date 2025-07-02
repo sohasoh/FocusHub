@@ -106,3 +106,51 @@ a:hover{
 
 /* Hero2 Section */
 
+.heroback2{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+.hero-image2{
+  width: 700px;
+  height: 800px;
+  margin-top: 2px;
+  opacity: 80%;
+  border-radius: 5px;
+}
+.hero-text2{
+  position: relative;
+  align-content: center;
+  height: 100vh;
+  width: 500px;
+}
+.hero-text2 .hero-button{
+  padding: 8px 50px;
+  position: relative;
+  top: 20px;
+  font-size: 15px;
+  font-weight: 300;
+  color: white;
+  background-color: #6863ffbb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+}
+.hero-text2 .hero-button:hover{
+  background-color: #F8971C;
+  transform: scale(1.1);
+}
+.hero-text2 h1{
+  font-size: 50px;
+  font-weight: 600;
+  color: #19469A;
+  width: 800px;
+}
+.hero-text2 p{
+  font-size: 25px;
+  margin-top: 20px;
+  color: #000000;
+  font-weight: 400;
+  font-style: light;
+}
