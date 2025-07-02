@@ -2,4 +2,31 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family:"Poppins", sans-serif;;
+}
+.Nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 100px;
+}
+.App-logo{
+  width: 150px;
+}
+ul{
+  display: flex;
+  gap: 20px;
+}
+li{
+  font-size: 20px;
+  font-weight: 600;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  background-color: #6763FF;
+  padding: 8px;
+  border-radius: 5px;
+
 }
