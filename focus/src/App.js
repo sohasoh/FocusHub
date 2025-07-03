@@ -81,7 +81,7 @@ function App() {
             <p>Just on one Click</p>
           </div>
           <img src={group} alt="group" className='hero-image3' />
-          <button className='hero-button3'>Start Now</button>
+          <button className='button3'>Start Now</button>
         </div>
       </section>
 
