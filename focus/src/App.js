@@ -81,7 +81,7 @@ function App() {
             <p>Just on one Click</p>
           </div>
           <img src={group} alt="group" className='hero-image3' />
-          <button className='hero-button'>Start Now</button>
+          <button className='hero-button3'>Start Now</button>
         </div>
       </section>
 
@@ -111,6 +111,13 @@ function App() {
           <img src={laptop} alt="laptop" className='hero-image5' />
         </div>
       </section>
+
+      <footer className='footer'>
+        <div className='footer-content'>
+          <p>© 2023 FocusHub. All rights reserved.</p>
+          <p>Privacy Policy | Terms of Service</p>
+        </div>
+      </footer>
     </div>
   );
 }
