@@ -2,6 +2,32 @@ import './App.css';
 import bluelogo from './bluelogo.svg';
 import Hero1 from './Hero1.png';
 import first from './first.png';
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+// import App from './App'; // Removed to avoid naming conflict
+import Login from './login';
+import Creatacc from './creatacc';
+import Home from './home';
+import Schedule from './schedule';
+import Team from './team';
+import Chat from './chat';
+import Aichat from './aichat';
+import {createBrowserRouter, RouterProvider} from 'react-router-dom';
+const router = createBrowserRouter([
+  {path: '/',element: <App />},
+  {path: '/login',element: <Login />},
+  {path: '/creatacc',element: <Creatacc />},
+  {path: '/home',element: <Home />},
+  {path: '/schedule',element: <Schedule/>},
+  {path: '/team',element: <Team />},
+  {path: '/chat',element: <Chat />},
+  {path: '/aichat',element: <Aichat />},
+]);
+createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>
+);
 
 function App() {
   return (
@@ -39,6 +65,9 @@ function App() {
         </div>
       </section>
 
+      <section className='hero3'>
+
+      </section>
     </div>
   );
 }
