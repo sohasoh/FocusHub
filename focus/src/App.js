@@ -1,6 +1,10 @@
 import './App.css';
 import bluelogo from './bluelogo.svg';
 import Hero1 from './Hero1.png';
+import group from './group.png';
+import laptop from './laptop.png';
+import phone from './phone.png';
+import schedule from './schedule.png';
 import first from './first.png';
 import React from 'react';
 import { createRoot } from 'react-dom/client';
@@ -54,6 +58,9 @@ function App() {
           </div>
         </div>
       </section>
+
+       {/* Hero2 section */}
+
       <section className='hero2'>
         <div className='heroback2'>
           <div className='hero-text2'>
@@ -65,8 +72,44 @@ function App() {
         </div>
       </section>
 
-      <section className='hero3'>
+       {/* Hero3 section */}
 
+      <section className='hero3'>
+        <div className='heroback3'>
+          <div className='hero-text3'>
+            <h2>Team Work With Real Life Screen Sharing</h2>
+            <p>Just on one Click</p>
+          </div>
+          <img src={group} alt="group" className='hero-image3' />
+          <button className='hero-button'>Start Now</button>
+        </div>
+      </section>
+
+       {/* Hero4 section */}
+
+      <section className='hero4'>
+        <div className='heroback4'>
+          <img src={schedule} alt="schedule" className='hero-image4' />
+          <div className='hero-text4'>
+            <h2>Schedule and Planning</h2>
+            <p>Simple, reliable, private messaging and calling for free. High security sharing personal information available all over the world.</p>
+            <button className='hero-button'>Schedule</button>
+          </div>
+        </div>
+      </section>
+
+      {/* Hero5 section */}
+
+      <section className='hero5'>
+        <div className='heroback5'>
+           <img src={phone} alt="phone" className='hero-image6' />
+          <div className='hero-text5'>
+            <h2>Download Focus hub</h2>
+            <p>We keep you connected on any device no matter your location. Get a network connection and download help to productivity for free !</p>
+            <button className='hero-button'>Download</button>
+          </div>
+          <img src={laptop} alt="laptop" className='hero-image5' />
+        </div>
       </section>
     </div>
   );
