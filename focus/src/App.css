@@ -180,7 +180,13 @@ a:hover{
   padding-top: 30px;
 }
 .key{
-  
+  position: relative;
+  cursor: pointer;
+  padding: 10px 30px;
+  background-color: #F8971C;
+  color: white;
+  font-size: 20px;
+  margin: 20px auto;
 }
 .hero-text3 p{
   color: #F8971C;
