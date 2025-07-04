@@ -115,12 +115,12 @@ function App() {
 
       <footer className='footer'>
         <div className='footer-content'>
-          <div>
+          <div className='sec1'>
             <img src={white} alt="FocusHub Logo" className='white' />
-            <p>FocusHub is a platform that helps you to create teams and schedules for better productivity.</p>
+            <span>FocusHub is a platform that helps you to create teams and schedules for better productivity.</span>
             <button className='hero-button5'>Download</button>
           </div>
-          <div>
+          <div className='foot'>
             <p>What we do</p>
             <ul>
               <li><a href="/chat">Chat</a></li>
@@ -129,16 +129,15 @@ function App() {
               <li><a href="/schedule">Schedule</a></li>
             </ul>
           </div>
-           <div>
+           <div className='foot'>
             <p>Need help?</p>
             <ul>
               <li><a href="/chat">Contact Us</a></li>
               <li><a href="/team">Help Center</a></li>
             </ul>
           </div>
-          <p>© 2023 FocusHub. All rights reserved.</p>
-          
         </div>
+        <p>© 2023 FocusHub. All rights reserved.</p>
       </footer>
     </div>
   );
