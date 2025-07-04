@@ -81,7 +81,7 @@ a:hover{
   font-size: 20px;
   margin-bottom: 20px;
   position: relative;
-  left: 37%;
+  left: 40%;
   height: 100px;
   width: 500px;
   text-align: left;
@@ -151,7 +151,6 @@ a:hover{
   font-weight: 600;
   color: #19469A;
   width: 800px;
-  margin-left: 5%;
 }
 .hero-text2 p{
   font-size: 25px;
@@ -166,6 +165,7 @@ a:hover{
 
 .heroback3{
   background-color: #19469A;
+  position: relative;
 }
 .hero-image3{
   width: 100%;
@@ -181,12 +181,21 @@ a:hover{
 }
 .key{
   position: relative;
+  left: 45%;
   cursor: pointer;
+  margin: 50px auto;
   padding: 10px 30px;
   background-color: #F8971C;
-  color: white;
+  color: #ffffff;
   font-size: 20px;
-  margin: 20px auto;
+  border: 0;
+  border-radius: 5px;
+  transition: transform 0.3s, background-color 0.3s;
+}
+.key:hover{
+  background-color: #ffffff;
+  transform: scale(1.1);
+  color: #F8971C;
 }
 .hero-text3 p{
   color: #F8971C;
@@ -195,4 +204,112 @@ a:hover{
   font-weight: 500;
   padding: 0;
   margin: 0;
+}
+
+/* Hero4 Section */
+
+.heroback4{
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+  gap: 2rem;
+}
+.hero-image4{
+  max-width: 40%;
+  margin-top: 2px;
+}
+.hero-text4{
+  position: relative;
+  width: 50%;
+  align-content: center;
+}
+.hero-text4 h2{
+  font-size: 50px;
+  font-weight: 600;
+  color: #19469A;
+}
+.hero-text4 p{
+  font-size: 25px;
+  margin-top: 20px;
+  color: #000000;
+  font-weight: 400;
+  font-style: light;
+  text-align: left;
+}
+.hero-button4{
+  padding: 8px 50px;
+  position: relative;
+  top: 20px;
+  font-size: 15px;
+  font-weight: 300;
+  color: white;
+  background-color: #6863ffbb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+}
+.hero-button4:hover{
+  background-color: #F8971C;
+  transform: scale(1.1);
+}
+
+/* Hero4 Section */
+
+.heroback5{
+  background-color: #fdaf8298;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  height: 500px;
+  padding: 30px;
+}
+.hero-image6{
+  width: 250px;
+  height: 300px;
+}
+.laptop{
+  width: 650px;
+  height: 610px;
+  margin-top: 2px;
+  border-radius: 5px;
+}
+.hero-text5{
+  position: relative;
+  width: 500px;
+  align-content: center;
+}
+.hero-text5 h2{
+  font-size: 40px;
+  font-weight: 600;
+  color: #19469A;
+}
+.hero-text5 p{
+  font-size: 20px;
+  margin-top: 20px;
+  color: #000000;
+  font-weight: 400;
+  font-style: light;
+  text-align: left;
+  width: 400px;
+}
+.hero-text5 button{
+  padding: 8px 50px;
+  position: relative;
+  top: 20px;
+  font-size: 15px;
+  font-weight: 300;
+  color: white;
+  background-color: #6863ffbb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+}
+.hero-text5 button:hover{
+  background-color: #F8971C;
+  transform: scale(1.1);
+}
+footer{
+  background-color: #19469A;
 }

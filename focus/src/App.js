@@ -7,6 +7,7 @@ import phone from './phone.png';
 import schedule from './schedule.png';
 import first from './first.png';
 import React from 'react';
+import white from './white.png';
 import { createRoot } from 'react-dom/client';
 // import App from './App'; // Removed to avoid naming conflict
 import Login from './login';
@@ -37,7 +38,7 @@ function App() {
   return (
     <div className="Head">
       <header className="Nav">
-        <img src={bluelogo} className="App-logo" alt="logo" />
+        <a href="/"><img src={bluelogo} className="App-logo" alt="logo" /></a>
         <nav className='menu'>
           <ul>
             <li><a href="creatacc.css">Create Account</a></li>
@@ -81,7 +82,7 @@ function App() {
             <p>Just on one Click</p>
           </div>
           <img src={group} alt="group" className='hero-image3' />
-          <input type='button' className='key' value='Create Team' />
+          <button className='key'>Create Team</button>
         </div>
       </section>
 
@@ -93,7 +94,7 @@ function App() {
           <div className='hero-text4'>
             <h2>Schedule and Planning</h2>
             <p>Simple, reliable, private messaging and calling for free. High security sharing personal information available all over the world.</p>
-            <button className='hero-button'>Schedule</button>
+            <button className='hero-button4'>Schedule</button>
           </div>
         </div>
       </section>
@@ -108,14 +109,35 @@ function App() {
             <p>We keep you connected on any device no matter your location. Get a network connection and download help to productivity for free !</p>
             <button className='hero-button'>Download</button>
           </div>
-          <img src={laptop} alt="laptop" className='hero-image5' />
+          <img src={laptop} alt="laptop" className='laptop' />
         </div>
       </section>
 
       <footer className='footer'>
         <div className='footer-content'>
+          <div>
+            <img src={white} alt="FocusHub Logo" className='white' />
+            <p>FocusHub is a platform that helps you to create teams and schedules for better productivity.</p>
+            <button className='hero-button5'>Download</button>
+          </div>
+          <div>
+            <p>What we do</p>
+            <ul>
+              <li><a href="/chat">Chat</a></li>
+              <li><a href="/team">Team</a></li>
+              <li><a href="/aichat">AI Chat</a></li>
+              <li><a href="/schedule">Schedule</a></li>
+            </ul>
+          </div>
+           <div>
+            <p>Need help?</p>
+            <ul>
+              <li><a href="/chat">Contact Us</a></li>
+              <li><a href="/team">Help Center</a></li>
+            </ul>
+          </div>
           <p>© 2023 FocusHub. All rights reserved.</p>
-          <p>Privacy Policy | Terms of Service</p>
+          
         </div>
       </footer>
     </div>
