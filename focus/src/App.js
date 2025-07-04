@@ -54,7 +54,7 @@ function App() {
           <div className='hero-text'>
             <h1>Create Team And Schedules For Better Experience !</h1>
             <p>Feel free because we take care of Security for you<br></br>All over the world, meet here today and upgrade</p>
-            <button className='hero-button'>Create Account</button>
+            <button className='hero-button1'>Create Account</button>
           </div>
         </div>
       </section>
@@ -66,7 +66,7 @@ function App() {
           <div className='hero-text2'>
             <h1>Privacy and Security</h1>
             <p>Simple, reliable, private messaging and calling for free. High security sharing personal information available all over the world.</p>
-            <button className='hero-button'>Login</button>
+            <button className='hero-button2'>Login</button>
           </div>
           <img src={first} alt="first" className='hero-image2' />
         </div>
