@@ -115,7 +115,7 @@ function App() {
 
       <footer className='footer'>
         <div className='footer-content'>
-          <div className='sec1'>
+          <div className='plate'>
             <img src={white} alt="FocusHub Logo" className='white' />
             <span>FocusHub is a platform that helps you to create teams and schedules for better productivity.</span>
             <button className='hero-button5'>Download</button>
