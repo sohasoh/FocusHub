@@ -11,12 +11,12 @@ import white from './white.png';
 import { createRoot } from 'react-dom/client';
 // import App from './App'; // Removed to avoid naming conflict
 import Login from './login';
-import Creatacc from './creatacc';
-import Home from './home';
-import Schedule from './schedule';
-import Team from './team';
-import Chat from './chat';
-import Aichat from './aichat';
+import Creatacc from './Pages/creatacc';
+import Home from './Pages/home';
+import Schedule from './Pages/schedule';
+import Team from './Pages/team';
+import Chat from './Pages/chat';
+import Aichat from './Pages/aichat';
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 const router = createBrowserRouter([
   {path: '/',element: <App />},
