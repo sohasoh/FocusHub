@@ -38,11 +38,11 @@ function App() {
   return (
     <div className="Head">
       <header className="Nav">
-        <a href="/"><img src={bluelogo} className="App-logo" alt="logo" /></a>
+        <link to="/"><img src={bluelogo} className="App-logo" alt="logo" /></link>
         <nav className='menu'>
           <ul>
-            <li><a href="creatacc.css">Create Account</a></li>
-            <li><a href="/login.css" className='enter'>Login</a></li>
+            <li><link to="creatacc">Create Account</link></li>
+            <li><link to="/login" className='enter'>Login</link></li>
           </ul>
         </nav>
       </header>
@@ -130,10 +130,11 @@ function App() {
             </ul>
           </div>
            <div className='foot'>
+
             <p>Need help?</p>
             <ul>
-              <li><a href="/chat">Contact Us</a></li>
-              <li><a href="/team">Help Center</a></li>
+              <li><link href="/chat">Contact Us</link></li>
+              <li><link href="/team">Help Center</link></li>
             </ul>
           </div>
         </div>
