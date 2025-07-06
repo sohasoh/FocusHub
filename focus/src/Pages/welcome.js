@@ -6,8 +6,8 @@ import group from '../group.png';
 import laptop from '../laptop.png';
 import phone from '../phone.png';
 import schedule from '../schedule.png';
-import first from '../first.png';
-import white from '../white.png';   
+import first from '../first.png'; 
+
 
 const welcome = () => {
   return (
@@ -87,34 +87,6 @@ const welcome = () => {
           <img src={laptop} alt="laptop" className='laptop' />
         </div>
       </section>
-
-      <footer className='footer'>
-        <div className='footer-content'>
-          <div className='plate'>
-            <img src={white} alt="FocusHub Logo" className='white' />
-            <span>FocusHub is a platform that helps you to create teams and schedules for better productivity.</span>
-            <button className='hero-button5'>Download</button>
-          </div>
-          <div className='foot'>
-            <p>What we do</p>
-            <ul>
-              <li><Link to="/chat">Chat</Link></li>
-              <li><Link to="/team">Team</Link></li>
-              <li><Link to="/aichat">AI Chat</Link></li>
-              <li><Link to="/schedule">Schedule</Link></li>
-            </ul>
-          </div>
-           <div className='foot'>
-
-            <p>Need help?</p>
-            <ul>
-              <li><Link to="/chat">Contact Us</Link></li>
-              <li><Link to="/team">Help Center</Link></li>
-            </ul>
-          </div>
-        </div>
-        <p>© 2023 FocusHub. All rights reserved.</p>
-      </footer>
     </div>
   )
 }
