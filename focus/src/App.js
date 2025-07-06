@@ -3,14 +3,24 @@ import React from 'react';
 import Welcome from './Pages/welcome';
 import Login from './login';
 import Home from './Pages/home';
+import Creatacc from './Pages/Creatacc';
+import Team from './Pages/team';
+import Chat from './Pages/chat';
+import Aichat from './Pages/aichat';
+import Schedule from './Pages/schedule';
 import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <React.Fragment>
-      <Route path='/welcome' element={<Welcome />} />
+      <Route index element={<Welcome />} />
       <Route path='/login' element={<Login />} />
-      <Route index element={<Home />} />
+      <Route path='/home' element={<Home />} />
+      <Route path='/creatacc' element={<Creatacc />} />
+      <Route path='/team' element={<Team />} />
+      <Route path='/chat' element={<Chat />} />
+      <Route path='/aichat' element={<Aichat />} />
+      <Route path='/schedule' element={<Schedule />} />
     </React.Fragment>
   )
 );
