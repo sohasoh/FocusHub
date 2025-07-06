@@ -3,7 +3,6 @@ import React from 'react';
 import Welcome from './Pages/welcome';
 import Login from './login';
 import Home from './Pages/home';
-import Creatacc from './Pages/creatacc';
 import Team from './Pages/team';
 import Chat from './Pages/chat';
 import Aichat from './Pages/aichat';
@@ -16,7 +15,6 @@ const router = createBrowserRouter(
       <Route index element={<Welcome />} />
       <Route path='/login' element={<Login />} />
       <Route path='/home' element={<Home />} />
-      <Route path='/creatacc' element={<Creatacc />} />
       <Route path='/team' element={<Team />} />
       <Route path='/chat' element={<Chat />} />
       <Route path='/aichat' element={<Aichat />} />
