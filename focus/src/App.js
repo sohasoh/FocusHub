@@ -7,6 +7,7 @@ import Team from './Pages/team';
 import Chat from './Pages/chat';
 import Aichat from './Pages/aichat';
 import Schedule from './Pages/schedule';
+import Create from './Pages/create';
 import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom';
 
 const router = createBrowserRouter(
@@ -19,6 +20,7 @@ const router = createBrowserRouter(
       <Route path='/chat' element={<Chat />} />
       <Route path='/aichat' element={<Aichat />} />
       <Route path='/schedule' element={<Schedule />} />
+      <Route path='/create' element={<Create />} />
     </React.Fragment>
   )
 );
