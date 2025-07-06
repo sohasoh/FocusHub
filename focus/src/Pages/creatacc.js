@@ -1,34 +1,39 @@
-import './App.css';
+import './creatacc.css';
+import { Link } from 'react-router-dom';
 
-function App() {
+import React from 'react'
+
+const creatacc = () => {
   return (
-    <div className='Login'>
-      <p>Sign-Up</p>
+    <div className='create'>
+      <p className='up'>Sign-Up</p>
       <div className='inpute'>
-      <div className='log'>
-        <input type='Name' name='Name' placeholder='Enter your name' required></input>
+        <div className='log'>
+          <input type='text' name='Name' placeholder='Enter your name' required />
+        </div>
+        <div className='log'>
+          <input type='text' name='Surname' placeholder='Enter your Sure-name' required />
+        </div> 
+        <div className='log'>
+          <input type='Tel' name='Phone' placeholder='tel' required />
+        </div> 
+        <div className='log'>
+          <input type='email' name='Email' placeholder='Enter your Email' required />
+        </div>
+        <div className='log'>
+          <input type='password' name='Password' placeholder='Password' required />
+        </div>
+        <div className='log'>
+          <input type='password' name='ConfirmPassword' placeholder='Confirm Password' required />
+        </div>
+        <div className='valid'>
+          <Link to='/Home'>
+            <input type='submit' className='submit' value='Sign Up' />
+          </Link>
+        </div>
       </div>
-      <div className='log'>
-        <input type='surename' name='Name' placeholder='Enter your Sure-name' required></input>
-      </div> 
-      <div className='log'>
-        <input type='Email' name='Name' placeholder='Enter your Email' required></input>
-      </div>
-      <div className='log'>
-        <input type='Password' name='Name' placeholder='Password' required></input>
-      </div>
-      <div className='log'>
-        <input type='password' name='Name' placeholder='Confirm Password' required></input>
-      </div>
-      <div className='valid'>
-        <a href='App.js'><button type='submit'>Submit</button></a>
-        
-      </div>
-      </div>
-     
-    </div>
-
-  );
+    </div>                    
+  )
 }
 
-export default App;
+export default creatacc
