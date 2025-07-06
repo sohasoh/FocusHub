@@ -1,4 +1,4 @@
-import React from 'react'
+import { Link } from 'react-router-dom';
 import './welcome.css'
 import bluelogo from '../bluelogo.svg';
 import Hero1 from '../Hero1.png';
@@ -8,17 +8,16 @@ import phone from '../phone.png';
 import schedule from '../schedule.png';
 import first from '../first.png';
 import white from '../white.png';   
-import '/.app.css';
 
 const welcome = () => {
   return (
        <div className="Head">
       <header className="Nav">
-        <link to="/"><img src={bluelogo} className="App-logo" alt="logo" /></link>
+        <Link to="/"><img src={bluelogo} className="App-logo" alt="logo" /></Link>
         <nav className='menu'>
           <ul>
-            <li><link to="creatacc">Create Account</link></li>
-            <li><link to="/login" className='enter'>Login</link></li>
+            <li><Link to="/creatacc">Create Account</Link></li>
+            <li><Link to="/login" className='enter'>Login</Link></li>
           </ul>
         </nav>
       </header>
@@ -99,18 +98,18 @@ const welcome = () => {
           <div className='foot'>
             <p>What we do</p>
             <ul>
-              <li><a href="/chat">Chat</a></li>
-              <li><a href="/team">Team</a></li>
-              <li><a href="/aichat">AI Chat</a></li>
-              <li><a href="/schedule">Schedule</a></li>
+              <li><Link to="/chat">Chat</Link></li>
+              <li><Link to="/team">Team</Link></li>
+              <li><Link to="/aichat">AI Chat</Link></li>
+              <li><Link to="/schedule">Schedule</Link></li>
             </ul>
           </div>
            <div className='foot'>
 
             <p>Need help?</p>
             <ul>
-              <li><link href="/chat">Contact Us</link></li>
-              <li><link href="/team">Help Center</link></li>
+              <li><Link to="/chat">Contact Us</Link></li>
+              <li><Link to="/team">Help Center</Link></li>
             </ul>
           </div>
         </div>

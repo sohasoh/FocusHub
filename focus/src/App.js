@@ -1,7 +1,6 @@
 import './App.css';
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-// import App from './App'; // Removed to avoid naming conflict
 import Welcome from './Pages/welcome';
 import Home from './Pages/home';
 import Login from './login';
@@ -16,7 +15,6 @@ const router = createBrowserRouter(
     <React.Fragment>
       <Route path="/welcome" element={<Welcome />} />
       <Route path="/home" element={<Home />} />
-      <Route path="/" element={<App />} />
       <Route path="/login" element={<Login />} />
       <Route path="/creatacc" element={<Creatacc />} />
       <Route path="/schedule" element={<Schedule />} />
