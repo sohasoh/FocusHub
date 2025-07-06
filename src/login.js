@@ -1,31 +1,37 @@
 import './login.css';
+import { Link } from 'react-router-dom';
+
 function Login() {
   return ( 
-<div className='Login'>
-      <p>Sign-Up</p>
+    <div className='Login'>
+      <p className='up'>Sign-Up</p>
       <div className='inpute'>
         <div className='log'>
-          <input type='Name' name='Name' placeholder='Enter your name' required></input>
+          <input type='text' name='Name' placeholder='Enter your name' required />
         </div>
         <div className='log'>
-          <input type='surename' name='Name' placeholder='Enter your Sure-name' required></input>
+          <input type='text' name='Surname' placeholder='Enter your Sure-name' required />
         </div> 
         <div className='log'>
-          <input type='Email' name='Name' placeholder='Enter your Email' required></input>
+          <input type='Tel' name='Phone' placeholder='tel' required />
+        </div> 
+        <div className='log'>
+          <input type='email' name='Email' placeholder='Enter your Email' required />
         </div>
         <div className='log'>
-          <input type='Password' name='Name' placeholder='Password' required></input>
+          <input type='password' name='Password' placeholder='Password' required />
         </div>
         <div className='log'>
-          <input type='password' name='Name' placeholder='Confirm Password' required></input>
+          <input type='password' name='ConfirmPassword' placeholder='Confirm Password' required />
         </div>
         <div className='valid'>
-          <a href='App.js'><button type='submit'>Submit</button></a>
+          <Link to='/Home'>
+            <input type='submit' className='submit' value='Sign Up' />
+          </Link>
         </div>
       </div>
-     
     </div>
-    );
+  );
 }
 
 export default Login;
