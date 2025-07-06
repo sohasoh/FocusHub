@@ -32,7 +32,7 @@ const welcome = () => {
             <div className='hero-text'>
               <h1>Create Team And Schedules For Better Experience !</h1>
               <p>Feel free because we take care of Security for you<br></br>All over the world, meet here today and upgrade</p>
-              <button className='hero-button1'>Create Account</button>
+              <Link to="/create"><button className='hero-button1'>Create Account</button></Link>
             </div>
           </div>
         </section>
@@ -44,7 +44,7 @@ const welcome = () => {
             <div className='hero-text2'>
               <h1>Privacy and Security</h1>
               <p>Simple, reliable, private messaging and calling for free. High security sharing personal information available all over the world.</p>
-              <button className='hero-button2'>Login</button>
+              <Link to="/login"><button className='hero-button2'>Login</button></Link>
             </div>
             <img src={first} alt="first" className='hero-image2' />
           </div>
@@ -59,7 +59,7 @@ const welcome = () => {
               <p>Just on one Click</p>
             </div>
             <img src={group} alt="group" className='hero-image3' />
-            <button className='key'>Create Team</button>
+            <Link to="/team"><button className='hero-button3'>Create Team</button></Link>
           </div>
         </section>
 
@@ -71,7 +71,7 @@ const welcome = () => {
             <div className='hero-text4'>
               <h2>Schedule and Planning</h2>
               <p>Simple, reliable, private messaging and calling for free. High security sharing personal information available all over the world.</p>
-              <button className='hero-button4'>Schedule</button>
+              <Link to="/schedule"><button className='hero-button4'>Schedule</button></Link>
             </div>
           </div>
         </section>
