@@ -1,7 +1,7 @@
 import './creatacc.css';
 import { Link } from 'react-router-dom';
 
-function Creatacc() {
+function creatacc() {
   return ( 
     <div className='create'>
       <p className='up'>Sign-Up</p>
@@ -34,4 +34,4 @@ function Creatacc() {
   );
 }
 
-export default Creatacc;
+export default creatacc;

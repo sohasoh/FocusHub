@@ -3,7 +3,7 @@ import React from 'react';
 import Welcome from './Pages/welcome';
 import Login from './login';
 import Home from './Pages/home';
-import Creatacc from './Pages/Creatacc';
+import Creatacc from './Pages/creatacc';
 import Team from './Pages/team';
 import Chat from './Pages/chat';
 import Aichat from './Pages/aichat';
