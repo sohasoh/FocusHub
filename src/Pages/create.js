@@ -1,8 +1,9 @@
-import './creatacc.css';
+import React from 'react'
 import { Link } from 'react-router-dom';
+import './create.css'
 
-function creatacc() {
-  return ( 
+const create = () => {
+  return (
     <div className='create'>
       <p className='up'>Sign-Up</p>
       <div className='inpute'>
@@ -30,8 +31,8 @@ function creatacc() {
           </Link>
         </div>
       </div>
-    </div>
-  );
+    </div>                    
+  )
 }
 
-export default creatacc;
+export default create
