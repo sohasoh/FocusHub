@@ -13,7 +13,7 @@ const create = () => {
           <input type='text' name='Surname' placeholder='Enter your Sure-name' required />
         </div> 
         <div className='log'>
-          <input type='Tel' name='Phone' placeholder='tel' required />
+          <input type='Tel' name='Phone' placeholder='Tel' required />
         </div> 
         <div className='log'>
           <input type='email' name='Email' placeholder='Enter your Email' required />

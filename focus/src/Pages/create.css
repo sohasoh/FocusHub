@@ -3,7 +3,7 @@
   margin: 0; 
 }
 .create{
-  height: 60vh;
+  height: 70vh;
   width: 50vh;
   background-color: rgb(238, 238, 238);
   position: absolute;
@@ -25,7 +25,7 @@
   background-color: rgb(197, 197, 197);
   position: absolute;
   left: 5%;
-  padding: 10px 70px;
+  padding: 10px 62px;
   border-radius: 3px;
   border: 0;
   font-weight: bold;
@@ -47,6 +47,7 @@
 }
 .submit:hover{
   background: rgb(255, 145, 0);
+  padding: 10px 62px;
 }
 input:hover{
   border: 0.5px solid rgb(255, 145, 0);
