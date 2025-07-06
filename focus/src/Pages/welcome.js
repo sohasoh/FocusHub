@@ -18,7 +18,7 @@ const welcome = () => {
           <Link to="/"><img src={bluelogo} className="App-logo" alt="logo" /></Link>
           <nav className='menu'>
             <ul>
-              <li><Link to="/creatacc">Create Account</Link></li>
+              <li><Link to="/create">Create Account</Link></li>
               <li><Link to="/login" className='enter'>Login</Link></li>
             </ul>
           </nav>
