@@ -7,7 +7,7 @@ const home = () => {
   return (
     <div>
         <header className='head'>
-            <img src={bluelogo} className="App-logo" alt="logo" />
+            <Link to="/welcome"><img src={bluelogo} className="App-logo" alt="logo" /></Link>
             <nav className='menue'>
                 <ul>
                   <li><Link to="/home"><FaHome /> Home</Link></li>
@@ -15,8 +15,6 @@ const home = () => {
                   <li><Link to="/chat">Chat</Link></li>
                   <li><Link to="/aichat">AI Chat</Link></li>
                   <li><Link to="/schedule">Schedule</Link></li>
-                  <li><Link to="/create">Create Account</Link></li>
-                  <li><Link to="/login" className='enter'>Login</Link></li>
                 </ul>
             </nav>
         </header>
