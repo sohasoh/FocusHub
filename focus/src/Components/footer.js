@@ -4,11 +4,11 @@ import white from '../white.png';
 
 const footer = () => {
   return (
-    <footer className='footer'>
+    <footer>
         <div className='footer-content'>
           <div className='plate'>
-            <img src={white} alt="FocusHub Logo" className='white' />
-            <span>FocusHub is a platform that helps you to create teams and schedules for better productivity.</span>
+            <img src={white} alt="FocusHub Logo" className='other' />
+            <p>FocusHub is a platform that helps you to create teams and schedules for better productivity.</p>
             <button className='hero-button5'>Download</button>
           </div>
           <div className='foot'>
@@ -28,7 +28,7 @@ const footer = () => {
             </ul>
           </div>
         </div>
-        <p>© 2023 FocusHub. All rights reserved.</p>
+        <p className='copyright'>© 2023 FocusHub. All rights reserved.</p>
       </footer>
   )
 }
