@@ -3,17 +3,18 @@
   margin: 0; 
 }
 .create{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   height: 70vh;
   width: 50vh;
-  background-color: rgb(238, 238, 238);
-  position: absolute;
-  left: 35%;
-  top: 170px;
+  border: 2px solid #6863ffbb;
   border-radius: 3px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 10px rgba(2, 109, 172, 0.5);
 }
 .up{
-  color: rgb(255, 145, 0);
+  color: #19469A;
   text-align: center;
   font-weight: bolder;
   font-size: 50px;
@@ -21,35 +22,34 @@
   padding: 10px;
 }
 .submit{
+  position: relative;
   color: white;
-  background-color: rgb(197, 197, 197);
-  position: absolute;
   left: 5%;
-  padding: 10px 62px;
+  background-color: rgb(129, 138, 151);
+  padding: 5px 90px;
   border-radius: 3px;
   border: 0;
-  font-weight: bold;
+  font-weight: light;
   font-size: 20px;
   cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
 }
 .log input{
-  padding: 10px 20px;
+  width: 100%;
+  padding: 10px 50px;
   border: 0;
-  border-radius: 3px                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ;
-}
-.inpute{
-  position: absolute;
-  left: 20%;
-
+  border-radius: 3px;
+  background-color: rgba(2, 109, 172, 0.1);
 }
 .log{
   margin: 10px;
 }
 .submit:hover{
-  background: rgb(255, 145, 0);
-  padding: 10px 62px;
+  background: #19469A;
+  padding: 6px 92px;
+  transform: scale(1.1);
 }
 .log input:hover{
-  border: 0.5px solid rgb(255, 145, 0);
-  padding: 15px 20px;
+  border: 0.5px solid rgba(2, 109, 172, 0.5);
+  padding: 14px 18px;
 }

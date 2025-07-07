@@ -318,15 +318,54 @@ footer{
   justify-content: space-evenly;
   padding: 40px;
 }
-.white{
-  width: 150px;
-  padding: 10px;
+.other{
+  width: 200px;
+  margin-bottom: 10px;
+
+}
+.plate p{
+  color: white;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.hero-button5{
+  padding: 7px 30px;
+  font-size: 15px;
+  font-weight: 300;
+  color: white;
+  background-color: #b5b3e9de;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+}
+.hero-button5:hover{
+  background-color: #F8971C;
+  transform: scale(1.1);
 }
 .foot p{
   color: rgb(194, 192, 192);
-  font-size: 20px;
+  font-size: 12px;
   font-style: italic;
 }
 .plate{
-  width: 500px;
+  width: 400px;
+}
+.foot ul li{
+  list-style: none;
+  color: rgb(194, 192, 192);
+  font-size: 17px;
+  font-weight: 500;
+}
+.foot ul li a{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.copyright{
+  border-top: 2px solid white;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
 }

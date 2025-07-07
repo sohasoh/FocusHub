@@ -8,7 +8,7 @@ const footer = () => {
         <div className='footer-content'>
           <div className='plate'>
             <img src={white} alt="FocusHub Logo" className='other' />
-            <span>FocusHub is a platform that helps you to create teams and schedules for better productivity.</span>
+            <p>FocusHub is a platform that helps you to create teams and schedules for better productivity.</p>
             <button className='hero-button5'>Download</button>
           </div>
           <div className='foot'>
@@ -28,7 +28,7 @@ const footer = () => {
             </ul>
           </div>
         </div>
-        <p>© 2023 FocusHub. All rights reserved.</p>
+        <p className='copyright'>© 2023 FocusHub. All rights reserved.</p>
       </footer>
   )
 }
