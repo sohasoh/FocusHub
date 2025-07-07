@@ -3,10 +3,11 @@
     padding: 0;
 }
 body{
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(192, 48, 48);
 }
 .login{
+    display: flex;
     height: 30vh;
     width: 50vh;
-    background-color: rgb(77, 37, 37);
+    
 }

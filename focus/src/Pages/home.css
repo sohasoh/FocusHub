@@ -2,3 +2,23 @@
     margin: 0;
     padding: 0;
 }
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+.menue ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+.menue ul li{
+    list-style: none;
+    text-decoration: none;
+}
+.menue ul li a{
+    text-decoration: none;
+    color: #19469A;
+    font-weight: bold;
+}
