@@ -13,7 +13,7 @@ const login = () => {
         </div>
         <Link to="/create" className="forgot">Create Account</Link>
         <div className="valid">
-          <Link to="/home"></Link><input type="submit" className="yes" value="Login" />
+          <Link to="/home"><input type="submit" className="yes" value="Login" /></Link>
         </div>
       </div>
     </div>
