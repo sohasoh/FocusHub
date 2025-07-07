@@ -4,6 +4,8 @@ import { FaHome } from 'react-icons/fa';
 import { MdMessage } from "react-icons/md";
 import { RiTeamFill } from "react-icons/ri";
 import { AiFillWechat } from "react-icons/ai";
+import homeImg from '../home-img.png';
+import { IoMdMore } from "react-icons/io";
 import { RiCalendarScheduleFill } from "react-icons/ri";
 import { Link } from 'react-router-dom';
 
@@ -23,8 +25,12 @@ const home = () => {
             </nav>
             <div className='logout'>
                 <Link to="/"><button className='logout-button'>Logout</button></Link>
+                <IoMdMore />
             </div>
         </header>
+        <section className='home-img'>
+          <img src={homeImg} alt='home-img' className='img1'/>
+        </section>
     </div>
   )
 }
