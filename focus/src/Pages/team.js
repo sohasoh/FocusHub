@@ -1,10 +1,11 @@
-import React from 'react'
+import './team.css'
 
 const team = () => {
   return (
     <div>
-      Team page
-      <p>Welcome to the team page!</p>
+      <div className='team'>
+        
+      </div>
     </div>
   )
 }
