@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    left: 45%;
+    height: 50vh;
+    width: 30vh;
+    border: 2px solid black
+    
+}
+.top{
+    color: #F8971C;
+    font-size: 30px;
+    font-weight: 600;text-align: center;
+}
+.inputes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
