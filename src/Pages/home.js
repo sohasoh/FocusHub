@@ -8,7 +8,7 @@ import homeImg from '../home-img.png';
 import { IoMdMore } from "react-icons/io";
 import { RiCalendarScheduleFill } from "react-icons/ri";
 import { Link } from 'react-router-dom';
-import Footer from '../components/Footer.js';
+import Footer from '../Components/Footer.js';
 
 const home = () => {
   return (
@@ -32,7 +32,7 @@ const home = () => {
         <section className='home-img'>
           <img src={homeImg} alt='home-img' className='img1'/>
         </section>
-        <Footer />
+        <Footer/>
     </div>
   )
 }

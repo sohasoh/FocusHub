@@ -7,7 +7,7 @@ import laptop from '../laptop.png';
 import phone from '../phone.png';
 import schedule from '../schedule.png';
 import first from '../first.png'; 
-import Footer from '../components/Footer.js';
+import Footer from '../Components/Footer.js';
 
 
 const welcome = () => {
@@ -90,7 +90,7 @@ const welcome = () => {
           </div>
         </section>
       </div>
-      <Footer />
+      <Footer/>
     </>
   )
 }
