@@ -1,11 +1,14 @@
 import React from 'react'
+import './schedule.css'
 import Sidebar from '../Components/Sidebar' 
 
 const schedule = () => {
   return (
-    <div>
+    <div className='sch'>
       <Sidebar />
-      Schedule page
+      <div>
+        Schedule page
+      </div>
     </div>
   )
 }

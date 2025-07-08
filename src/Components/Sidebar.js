@@ -10,7 +10,7 @@ import { FaUserCircle } from "react-icons/fa";
 const Sidebar = ({Children}) => {
   const menuItem=[
     {
-      path:"/profile",
+      path:"/home",
       name:"Home",
       icon:<FaHome/>
     },
@@ -51,8 +51,8 @@ const Sidebar = ({Children}) => {
             </NavLink>
           ))
         }
+        <main>{Children}</main>
       </div>
-      <main>{Children}</main>
     </div>
   )
 }

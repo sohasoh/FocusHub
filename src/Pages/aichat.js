@@ -1,12 +1,15 @@
 import React from 'react'
-import Sidebar from '../Components/Sidebar' 
+import './aichat.css'
+import Sidebar from '../Components/Sidebar'
 
 const aichat = () => {
   return (
-    <div>
+    <div className='ai'>
       <Sidebar />
-      Ai Chat page
-      <p>Welcome to the AI chat page!</p>
+      <div>
+        Ai Chat page
+        <p>Welcome to the AI chat page!</p>
+      </div>
     </div>
   )
 }
