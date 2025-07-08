@@ -6,7 +6,7 @@ const team = () => {
     <div>
       <div className='team'>
         <Sidebar />
-        <div>Teams</div>
+        <div className='hey'>Teams</div>
       </div>
     </div>
   )
