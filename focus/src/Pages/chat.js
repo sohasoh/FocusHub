@@ -1,5 +1,7 @@
 import React from 'react'
 import './chat.css'
+import bluelogo from '../bluelogo.svg';
+import {Link} from 'react-router-dom';
 import Sidebar from '../Components/Sidebar' 
 
 const chat = () => {
@@ -7,8 +9,7 @@ const chat = () => {
     <div className='cha'>
       <Sidebar />
       <div>
-         Chat page
-      <p>Welcome to the chat page!</p>
+        <Link to='/home'><img src={bluelogo} className="team-logo" alt="logo" /></Link>
       </div>
     </div>
   )

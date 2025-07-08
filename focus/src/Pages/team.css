@@ -4,9 +4,11 @@
 }
 .team{
     display: flex;
-    background-color: green;
 }
 .hey{
-    background-color: red;
     width: 100%;
+}
+.team-logo{
+    width: 180px;
+    padding: 20px;
 }

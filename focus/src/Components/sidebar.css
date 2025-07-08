@@ -11,6 +11,7 @@ main{
     background-color: #19469A;
     height: 100vh;
     color: white;
+    width: 180px;
 }
 .profileimg{
     padding: 5px;
@@ -21,7 +22,7 @@ main{
 }
 .profileimg p{
     font-size: 12px;
-    text-align: center;
+    text-align: left;
     margin-top: 0;
 }
 .link{
@@ -34,4 +35,8 @@ main{
 .link:hover{
     background-color: #4671FF;
     color:#F8971C ;
+    transition: all 0.5s;
+}
+.active{
+    background-color: #4671FF;
 }
