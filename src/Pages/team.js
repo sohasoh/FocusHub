@@ -4,9 +4,9 @@ import Sidebar from '../Components/Sidebar'
 const team = () => {
   return (
     <div>
-      <Sidebar />
       <div className='team'>
-        
+        <Sidebar />
+        <div>Teams</div>
       </div>
     </div>
   )
