@@ -1,5 +1,7 @@
 import React from 'react'
 import './schedule.css'
+import { Link } from 'react-router-dom';
+import bluelogo from '../bluelogo.svg';
 import Sidebar from '../Components/Sidebar' 
 
 const schedule = () => {
@@ -7,7 +9,7 @@ const schedule = () => {
     <div className='sch'>
       <Sidebar />
       <div>
-        Schedule page
+        <Link to='/home'><img src={bluelogo} className="team-logo" alt="logo" /></Link>
       </div>
     </div>
   )

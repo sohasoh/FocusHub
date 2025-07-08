@@ -4,6 +4,7 @@ import Welcome from './Pages/welcome';
 import Login from './login';
 import Home from './Pages/home';
 import Team from './Pages/team';
+import Profile from './Pages/Profile';
 import Chat from './Pages/chat';
 import Aichat from './Pages/aichat';
 import Schedule from './Pages/schedule';
@@ -21,6 +22,7 @@ const router = createBrowserRouter(
       <Route path='/aichat' element={<Aichat />} />
       <Route path='/schedule' element={<Schedule />} />
       <Route path='/create' element={<Create />} />
+      <Route path='/profile' element={<Profile/>}/>
     </React.Fragment>
   )
 );
