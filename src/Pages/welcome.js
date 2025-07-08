@@ -7,7 +7,7 @@ import laptop from '../laptop.png';
 import phone from '../phone.png';
 import schedule from '../schedule.png';
 import first from '../first.png'; 
-import Footer from '../Components/Footer';
+import Footer from '../components/Footer.js';
 
 
 const welcome = () => {
