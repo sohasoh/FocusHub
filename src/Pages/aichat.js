@@ -9,7 +9,7 @@ const aichat = () => {
     <div className='ai'>
       <Sidebar />
       <div>
-        <Link to="/"><img src={bluelogo} className="App-logo" alt="logo" /></Link>
+        <Link to="/"><img src={bluelogo} className="team-logo" alt="logo" /></Link>
       </div>
     </div>
   )
