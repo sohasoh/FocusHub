@@ -8,7 +8,17 @@
 .hey{
     width: 100%;
 }
+.teamhead{
+    border-left: 2px solid white;
+    border-bottom: 1px solid rgb(182, 182, 182);
+}
 .team-logo{
     width: 180px;
     padding: 20px;
+}
+.sidesection{
+    display: flex;
+}
+.text{
+    width: 100%;
 }
