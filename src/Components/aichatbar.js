@@ -9,7 +9,7 @@ const aichatbar = () => {
     <div className='mesage'>
       <div className='teamsearch'>
         <input type='search' placeholder='Search Team'></input>
-        <button><IoSearch color='#19469A' size='20px'/></button>
+        <button><IoSearch color='#F8971C' size='20px'/></button>
       </div>
       <section className='createteam'>
         <AiFillWechat size='50px' color='white'/>

@@ -9,12 +9,15 @@ const aichat = () => {
   return (
     <div className='ai'>
       <Sidebar />
-      <div className='sideai'>
-        <div>
+      <div className='hi'>
+        <div className='sideai'>
           <Link to="/"><img src={bluelogo} className="team-logo" alt="logo" /></Link>
         </div>
         <section className='aichatsec'>
           <Aichatbar/>
+          <div className='chatspace'>
+            hi 
+          </div>
         </section>
       </div>
     </div>

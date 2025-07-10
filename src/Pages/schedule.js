@@ -19,7 +19,7 @@ const schedule = () => {
         </div>
         <section className='Sched'>
           <div className='plan'>
-
+            
           </div>
           <div className='calenda'>
             
