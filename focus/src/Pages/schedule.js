@@ -15,14 +15,14 @@ const schedule = () => {
         <div className='schnav'>
           <Link to='/home'><img src={bluelogo} className="sch-logo" alt="logo" /></Link>
           <IoIosNotifications size='40px' />
-          <BsThreeDotsVertical size='30px'/>
+          <BsThreeDotsVertical size='40px'/>
         </div>
         <section className='Sched'>
           <div className='plan'>
-            
+            silas
           </div>
           <div className='calenda'>
-            
+            silas
           </div>
         </section>
       </div>

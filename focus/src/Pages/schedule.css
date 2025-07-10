@@ -11,8 +11,22 @@
     display: flex;
     width: 100%;
     justify-content: center;
-     border-bottom: 1px solid rgb(182, 182, 182);
+     border-bottom: 1px solid #F8971C;
 }
 .sch-logo{
     width: 180px;
+}
+.Sched{
+    display: flex;
+    justify-content: space-between;
+}
+.calenda{
+    background-color: blue;
+    width: 100px;
+    height: 100vh;
+}
+.plan{
+    background-color: #F8971C;
+    width: 100px;
+    height: 100vh;
 }
