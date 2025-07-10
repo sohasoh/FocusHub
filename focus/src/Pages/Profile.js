@@ -82,68 +82,70 @@ const Profile = () => {
   };
 
   return (
-    <div className="profile-container">
-      <h2>User Profile</h2>
-      {error && <p className="error">{error}</p>}
-      <div className="profile-image">
-        <img
-          src={newImage || user.profileImage || '/default-profile.png'}
-          alt="Profile"
-          className="profile-img"
-        />
-        {isEditing && (
-          <input
-            type="file"
-            accept="image/*"
-            onChange={handleImageChange}
-            className="image-upload"
+    <div className="profile">
+      <div className='profile-container'>
+        <h2>User Profile</h2>
+        {error && <p className="error">{error}</p>}
+        <div className="profile-image">
+          <img
+            src={newImage || user.profileImage || '/default-profile.png'}
+            alt="Profile"
+            className="profile-img"
           />
-        )}
-      </div>
-      <form onSubmit={handleSubmit}>
-        <div className="form-group">
-          <label htmlFor="name">Name:</label>
-          <input
-            id="name"
-            type="text"
-            name="name"
-            value={user.name}
-            onChange={handleInputChange}
-            disabled={!isEditing}
-            className="form-input"
-          />
+          {isEditing && (
+            <input
+              type="file"
+              accept="image/*"
+              onChange={handleImageChange}
+              className="image-upload"
+            />
+          )}
         </div>
-        <div className="form-group">
-          <label htmlFor="email">Email:</label>
-          <input
-            id="email"
-            type="email"
-            name="email"
-            value={user.email}
-            onChange={handleInputChange}
-            disabled={!isEditing}
-            className="form-input"
-          />
-        </div>
-        {isEditing ? (
-          <div className="form-actions">
-            <button type="submit" className="btn btn-save">Save Changes</button>
-            <button type="button" className="btn btn-cancel" onClick={() => setIsEditing(false)}>
-              Cancel
-            </button>
+        <form onSubmit={handleSubmit}>
+          <div className="form-group">
+            <label htmlFor="name">Name:</label>
+            <input
+              id="name"
+              type="text"
+              name="name"
+              value={user.name}
+              onChange={handleInputChange}
+              disabled={!isEditing}
+              className="form-input"
+            />
           </div>
-        ) : (
-          <button type="button" className="btn btn-edit" onClick={() => setIsEditing(true)}>
-            Edit Profile
-          </button>
-        )}
-      </form>
-      <button
-        className="btn btn-delete"
-        onClick={handleDeleteAccount}
-      >
-        Delete Account
-      </button>
+          <div className="form-group">
+            <label htmlFor="email">Email:</label>
+            <input
+              id="email"
+              type="email"
+              name="email"
+              value={user.email}
+              onChange={handleInputChange}
+              disabled={!isEditing}
+              className="form-input"
+            />
+          </div>
+          {isEditing ? (
+            <div className="form-actions">
+              <button type="submit" className="btn btn-save">Save Changes</button>
+              <button type="button" className="btn btn-cancel" onClick={() => setIsEditing(false)}>
+                Cancel
+              </button>
+            </div>
+          ) : (
+            <button type="button" className="btn btn-edit" onClick={() => setIsEditing(true)}>
+              Edit Profile
+            </button>
+          )}
+        </form>
+        <button
+          className="btn btn-delete"
+          onClick={handleDeleteAccount}
+        >
+          Delete Account
+        </button>
+      </div> 
     </div>
   );
 };

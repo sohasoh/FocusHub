@@ -33,10 +33,10 @@ main{
   transition: all 0.5s;
 }
 .link:hover{
-    background-color: #4671FF;
-    color:#F8971C ;
+    background-color: #F8971C;
+    color:#ffffff ;
     transition: all 0.5s;
 }
 .active{
-    background-color: #4671FF;
+    background-color: #F8971C;
 }
