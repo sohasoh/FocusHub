@@ -1,7 +1,7 @@
 import React from 'react'
-import './messagebar.css'
+import './chatbar.css'
 import { Link } from "react-router-dom"
-import { RiTeamFill } from "react-icons/ri";
+import { MdMessage } from "react-icons/md";
 import { IoSearch } from "react-icons/io5";
 
 const messagebar = () => {
@@ -12,8 +12,8 @@ const messagebar = () => {
         <button><IoSearch color='#19469A' size='20px'/></button>
       </div>
       <section className='createteam'>
-        <RiTeamFill size='50px' color='white'/>
-        <Link className='iconclique'>Click to Create Team</Link>
+        <MdMessage size='50px' color='white'/>
+        <Link className='iconclique'>Add Contact</Link>
 
       </section>
     </div>

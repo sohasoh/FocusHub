@@ -1,7 +1,7 @@
 import './team.css'
 import bluelogo from '../bluelogo.svg';
 import Sidebar from '../Components/Sidebar' 
-import Messagebar from '../Components/messagebar';
+import Teambar from '../Components/teambar';
 import { Link } from 'react-router-dom';
 
 const team = () => {
@@ -14,7 +14,7 @@ const team = () => {
             <Link to='/home'><img src={bluelogo} className="team-logo" alt="logo" /></Link>
           </div>
           <section className='sidesection'>
-            <Messagebar />
+            <Teambar />
             <div className='texting'>
               <div className='text'>
                 heos
