@@ -6,7 +6,12 @@
 .sch{
     display: flex;
 }
+
 .schnav{
     display: flex;
-    
+    width: 100%;
+    justify-content: center;
+}
+.sch-logo{
+    width: 180px;
 }
