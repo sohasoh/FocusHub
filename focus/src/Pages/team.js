@@ -3,6 +3,7 @@ import bluelogo from '../bluelogo.svg';
 import Sidebar from '../Components/Sidebar' 
 import Teambar from '../Components/teambar';
 import { Link } from 'react-router-dom';
+import Text from '../Components/Text'
 
 const team = () => {
   return (
@@ -17,7 +18,7 @@ const team = () => {
             <Teambar />
             <div className='texting'>
               <div className='text'>
-                heos
+                <Text />
               </div>
             </div>
           </section>

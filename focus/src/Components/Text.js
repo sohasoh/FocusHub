@@ -1,11 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
 import io from 'socket.io-client';
-import './App.css';
+import './Sidebar.css'
 
 // Connect to Socket.IO server (replace with your backend URL)
 const socket = io('http://localhost:5000');
 
-const Chat = () => {
+const Text = () => {
   // State for messages and input
   const [messages, setMessages] = useState([]);
   const [message, setMessage] = useState('');
@@ -83,4 +83,4 @@ const Chat = () => {
   );
 };
 
-export default Chat;
+export default Text;

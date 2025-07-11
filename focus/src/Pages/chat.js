@@ -3,7 +3,9 @@ import './chat.css'
 import bluelogo from '../bluelogo.svg';
 import Chatbar from '../Components/chatbar'
 import {Link} from 'react-router-dom';
-import Sidebar from '../Components/Sidebar' 
+import Sidebar from '../Components/Sidebar'
+import Text from '../Components/Text'
+
 
 const chat = () => {
   return (
@@ -16,7 +18,7 @@ const chat = () => {
         <section className='chatsection'>
           <Chatbar/>
           <div>
-            heo
+            <Text />
           </div>
         </section>
       </div>
