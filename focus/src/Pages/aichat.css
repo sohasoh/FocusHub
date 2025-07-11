@@ -6,9 +6,13 @@
 .ai{
     display: flex;
 }
+.me{
+    width: 100%;
+}
 .sideai{
     display: flex;
-     border-bottom: 1px solid #F8971C;
+    border-bottom: 1px solid #F8971C;
+    background-color: red;
 }
 .aichatsec{
     display: flex;

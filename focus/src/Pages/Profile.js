@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './profile.css';
+import Sidebar from '../Components/Sidebar' 
 
 const Profile = () => {
   // State for user data and UI control

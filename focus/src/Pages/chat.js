@@ -14,11 +14,11 @@ const chat = () => {
           <Link to='/home'><img src={bluelogo} className="team-logo" alt="logo" /></Link>
         </div>
         <section className='chatsection'>
-        <Chatbar/>
-        <div>
-          heo
-        </div>
-      </section>
+          <Chatbar/>
+          <div>
+            heo
+          </div>
+        </section>
       </div>
     </div>
   )

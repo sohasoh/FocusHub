@@ -5,7 +5,7 @@
   text-align: center;
   background-color: #ffffff;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px rgba(42, 138, 255, 0.413);
 }
 
 .profile-container h2 {
@@ -75,7 +75,7 @@
 }
 
 .btn-save {
-  background-color: #007bff;
+  background-color: #19469A;
   color: white;
 }
 
@@ -84,7 +84,7 @@
 }
 
 .btn-cancel {
-  background-color: #6c757d;
+  background-color: #cdcdcd;
   color: white;
 }
 

@@ -1,11 +1,12 @@
-import React from 'react'
+
+import 'react-big-calendar/lib/css/react-big-calendar.css';
 import './schedule.css'
 import { Link } from 'react-router-dom';
 import bluelogo from '../bluelogo.svg';
 import Sidebar from '../Components/Sidebar' 
 
 
-const schedule = () => {
+const Schedule = () => {
   return (
     <div className='sch'>
       <Sidebar />
@@ -31,4 +32,4 @@ const schedule = () => {
   )
 }
 
-export default schedule
+export default Schedule
