@@ -16,10 +16,10 @@ const aichat = () => {
             <div className='sideai'>
               <Link to="/"><img src={bluelogo} className="team-logo" alt="logo" /></Link>
             </div>
-            <section className='aichatsec'>
+            <div className='aichatsec'>
               <Aichatbar/>
               <Text />
-            </section>
+            </div>
           </div>
         </div>
         

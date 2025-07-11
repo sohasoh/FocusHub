@@ -17,9 +17,7 @@ const chat = () => {
         </div>
         <section className='chatsection'>
           <Chatbar/>
-          <div>
-            <Text />
-          </div>
+          <Text />
         </section>
       </div>
     </div>

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import io from 'socket.io-client';
-import './Sidebar.css'
+import './Text.css'
 
 // Connect to Socket.IO server (replace with your backend URL)
 const socket = io('http://localhost:5000');

@@ -14,14 +14,10 @@ const team = () => {
           <div className='teamhead'>
             <Link to='/home'><img src={bluelogo} className="team-logo" alt="logo" /></Link>
           </div>
-          <section className='sidesection'>
+          <div className='sidesection'>
             <Teambar />
-            <div className='texting'>
-              <div className='text'>
-                <Text />
-              </div>
-            </div>
-          </section>
+            <Text />
+          </div>
         </div>
       </div>
     </div>

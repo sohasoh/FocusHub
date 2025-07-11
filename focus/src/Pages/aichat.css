@@ -11,8 +11,8 @@
 }
 .sideai{
     display: flex;
-    border-bottom: 1px solid #F8971C;
-    background-color: red;
+    border-bottom: 2px solid #F8971C;
+    
 }
 .aichatsec{
     display: flex;
